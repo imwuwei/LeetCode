@@ -13,10 +13,7 @@ class Solution:
             if another_num in hashmap:
                 return [hashmap[another_num], index]
             hashmap[num] = index
-
         return None
-
-
 
 # @lc code=end
 
